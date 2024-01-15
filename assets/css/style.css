@@ -1,0 +1,11 @@
+.fondo {display: flex; background-color: green;height: 3rem; justify-content: center;align-items: center; font-size: 3rem;}
+.fondobody {background-color: yellow;}
+.td{color: orange;border: solid 1em black;}
+.td2{color:green; border: solid 1em black;}
+.bordeorange{border: solid 1em orange;text-align: center;}
+.bordegreen{border: solid 1em green;text-align: center;}
+.bordeyellow{border: solid 1em red;text-align: center;}
+.letrayellow{color: red; }
+.ul{list-style-type: none;}
+.bordeblue{border: solid 1em blue;}	
+.barra{display: flex;background-color: green;justify-content: space-between;align-items: center;}
