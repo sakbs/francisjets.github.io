@@ -5,46 +5,88 @@
 
 	<title>Portafolio</title>
 	<link rel="icon" type="image/png" href="./assets/favicon/beso.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body style bgcolor="red";>
-<h1 style="display: flex;justify-content: center;">Portafolio</h1>
-<h2 style="display: flex;justify-content: center;">Tabla de proyectos</h2>
+
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PORTAFOLIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Imagenes de proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Futuros proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Trabajo colaborativo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PROYECTOS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Proyecto 1</a></li>
+            <li><a class="dropdown-item" href="#">Proyecto 2</a></li>
+            <li><a class="dropdown-item" href="#">Proyecto 3</a></li>
+            <li><a class="dropdown-item" href="#">Proyecto 4</a></li>
+            <li><a class="dropdown-item" href="#">Proyecto 5</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="display: flex;justify-content: space-between;">
+<div class="card" style="width: 18rem;">
+  <img src="./assets/images/captura.png" class="card-img-top" alt="html">
+  <div class="card-body">
+    <p class="card-text">Proyecto 1: Se construye una pagina en html, aprendiendo la estructura mediante etiquetas </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="./assets/images/aumentada.jpg" class="card-img-top" alt="html">
+  <div class="card-body">
+    <p class="card-text">Proyecto 2: Se aprende como maquillar y dar estilo a una pagina, aprendiendo conceptos como normalize y distintas formas de ocupar css </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="./assets/images/iguana3.jpg" class="card-img-top" alt="html">
+  <div class="card-body">
+    <p class="card-text">Proyecto 3: Se aprende a ocupar flex,herramienta que nos ayuda alinear y ordenar la pagina, conceptos importantes: display flex, justify content, align items, entre otros </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="./assets/images/medi.jpg" class="card-img-top" alt="html">
+  <div class="card-body">
+    <p class="card-text">Proyecto 4: Se  aprende a ocupar bootstrap, pagina que nos sirve como una biblioteca para poder , facilitar el proceso y agiizar la construccion de una pagina. </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="./assets/images/mujer.jpg" class="card-img-top" alt="html">
+  <div class="card-body">
+    <p class="card-text">Proyecto 5: Se aprende a ocupar git hub , pagina que nos permite trabajar creando un repositorio , en donde podemos clonar el repositorio de otra persona , clonarlo y luego modificarlo mediante comandos como git add, git commit -m y git puch,etc </p>
+  </div>
+</div>
+</div>
 
 
-<table bgcolor="yellow" border="1" width="1000">
-	<thead >
-		<th width="500">Nombre del Proyecto</th>
-		<th width="1500"> Informacion del proyecto</th>
-	</thead>
 
-	<tbody>
-	<tr>
-		<td>Curriculum Vitae </td>
-		<th> <img src="./assets/images/captura.png " width="500" height="500"> </td>
-</tr>
-<tr> 
-	<td>Proyecto 2 <b>(CSS)</b></td>
-<td style="display: flex;justify-content: center;"><img src="./assets/images/aumentada.jpg " width="500" height="500"></td>
-</tr>
-<tr>
-	<td>Proyecto 3 <b>(Flex)</b></td>
-<td style="display: flex;justify-content: center;"><img src="./assets/images/iguana3.jpg " width="500" height="500"></td>
-</tr>
-<tr> 
-	<td>Proyecto 4<b>(BOOTSTRAP)</b></td>
-<td style="display: flex;justify-content: center;"><img src="./assets/images/medi.jpg " width="500" height="500"></td>
-</tr>
-<tr>
-	<tr> 
-	<td>Proyecto 5<b>(GITHUB)</b></td>
-<td style="display: flex;justify-content: center;"><img src="./assets/images/mujer.jpg " width="500" height="500"></td>
-</tr>
-<tr>
-</tbody>
-</table>
+
 <footer style="display: flex;justify-content: center;">
 
 <a href="index.html"> Volver a CV</a>
 </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </html>
